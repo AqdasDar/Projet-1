@@ -12,3 +12,20 @@
 .burger_menu_white {
   filter: invert(100%);
 }
+
+nav {
+  opacity: 0.9;
+}
+nav ul {
+  justify-content: space-around;
+}
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
