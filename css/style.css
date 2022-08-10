@@ -12,3 +12,6 @@
 .burger_menu_white {
   filter: invert(100%);
 }
+.bg{
+  background: url("../assets/")
+}
