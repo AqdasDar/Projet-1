@@ -1,19 +1,35 @@
 boby{
     margin: 0;
 }
-/* Flex banniere */
-.a-flex{
+/* Flex commun */
+.flex{
     display: flex;
+  
+}
+
+.justify-content {
     justify-content: center;
 }
-/*width & heigth*/
-.banniere{
-    width:1500px;
-    height: 600px;
-    background-image: url(bali\ photo/banniere3-1.png)
-  
-  
-
-
+.align-center{
+    align-items: center;
+}
+.flex-item{
+  -ms-flex-item-align: center;
 }
 
+
+/*width & heigth*/
+
+  
+img {width: 1980px;
+ height: 1100px;
+}
+h1{
+    position:relative ;
+    top: 250px;
+z-index: 1;
+   
+right: 890px;
+  
+    
+}
