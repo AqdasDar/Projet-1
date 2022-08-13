@@ -18,3 +18,9 @@ new ResizeObserver(entries => {
     navLinksContainer.style.transition = "none"
   }
 }).observe(document.body)
+/* section 1 image */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
