@@ -46,7 +46,7 @@ boby{
   color: white;
     position:absolute;
     top: 12%;
-    left: 36%;
+    left: 38%;
   transform: translate(-50%-50%);
 
    }
@@ -215,7 +215,7 @@ boby{
 }
 
 /* section 1 menu image*/
-.snip1482 {
+.nomade2022{
   font-family: 'Fauna One', Arial, sans-serif;
   position: relative;
   margin: 10px 20px;
@@ -229,13 +229,13 @@ boby{
   background-color: #1a1a1a;
   font-size: 16px;
 }
-.snip1482 * {
+.nomade2022 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.snip1482 img {
+.nomade2022 img {
   position: absolute;
   right: 0%;
   top: 50%;
@@ -244,7 +244,7 @@ boby{
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-.snip1482 figcaption {
+.nomade2022 figcaption {
   position: absolute;
   width: 50%;
   top: 50%;
@@ -253,23 +253,23 @@ boby{
   transform: translateY(-50%);
   padding: 20px 0 20px 20px;
 }
-.snip1482 h2,
-.snip1482 p {
+.nomade2022 h2,
+.nomade2022 p {
   margin: 0;
   width: 100%;
   -webkit-transform: translateX(20px);
   transform: translateX(20px);
   opacity: 0;
 }
-.snip1482 h2 {
+.nomade2022 h2 {
   font-family: 'Playfair Display', Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-.snip1482 p {
+.nomade2022 p {
   font-size: 0.8em;
 }
-.snip1482 a {
+.nomade2022 a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -277,15 +277,15 @@ boby{
   right: 0;
   z-index: 1;
 }
-.snip1482:hover img,
-.snip1482.hover img {
+.nomade2022:hover img,
+.nomade2022.hover img {
   width: 55%;
   right: -10%;
 }
-.snip1482:hover figcaption h2,
-.snip1482.hover figcaption h2,
-.snip1482:hover figcaption p,
-.snip1482.hover figcaption p {
+.nomade2022:hover figcaption h2,
+.nomade2022.hover figcaption h2,
+.nomade2022:hover figcaption p,
+.nomade2022.hover figcaption p {
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1;
