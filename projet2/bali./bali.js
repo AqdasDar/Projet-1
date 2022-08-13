@@ -1,3 +1,5 @@
+/* nav et hamburger*/
+
 const hamburgerToggler = document.querySelector(".hamburger")
 const navLinksContainer = document.querySelector(".navlinks-container");
 
@@ -18,6 +20,9 @@ new ResizeObserver(entries => {
     navLinksContainer.style.transition = "none"
   }
 }).observe(document.body)
+/* nav et hamburger fin */
+
+
 /* section 1 image */
 $(".hover").mouseleave(
   function () {
