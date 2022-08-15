@@ -12,14 +12,13 @@
 .burger_menu_white {
   filter: invert(100%);
 }
-.bg {
-  background: url("../assets/stephen-leonardi-0GCgvEPe-J8-unsplash.jpg")
-    no-repeat center;
+body {
+  background: url("../assets/aron-visuals-LSFuPFE9vKE-unsplash.jpg") no-repeat
+    center;
   background-size: cover;
 }
-header {
-  height: 100px;
-  text-align: center;
-  justify-content: center;
-}
+
 /* center text vertically  */
+p {
+  color: aliceblue;
+}
