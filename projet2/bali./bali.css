@@ -63,7 +63,7 @@ body{
  }
 /* section text bali +intro et img festival*/
  .intro {font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: whitesmoke;
 
 
@@ -74,8 +74,8 @@ body{
   padding-top: 200px;
 }
  .festival{
-  width: 1150px;
-  height: 650px;
+  width: 970px;
+  height: 590px;
  
  }
 
@@ -354,7 +354,7 @@ body{
   padding-top: 50px;
   display: flex;
   flex-wrap:wrap ;
-  font-size: 18px;
+  font-size: 20px;
   
   
 
@@ -395,4 +395,35 @@ h3{
   color: white;
   font-size: x-large;
   padding-top: 10px;
+}
+/*section 3 nomade-digital*/
+.nomade-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 60px;
+}
+.nomade-digital{
+  display: flex;
+  justify-content:space-evenly;
+  padding-top: 150px;
+  
+}
+.nomadepc{
+  width: 680px;
+  height: 494px;
+}
+.video-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 60px;
+
+}
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  padding-top: 30px;
+
 }
