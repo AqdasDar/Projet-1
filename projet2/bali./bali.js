@@ -1,4 +1,5 @@
 /* nav et hamburger*/
+(function($){
 
 const hamburgerToggler = document.querySelector(".hamburger")
 const navLinksContainer = document.querySelector(".navlinks-container");
@@ -32,7 +33,8 @@ $(".hover").mouseleave(
 
 /*section 4 caroussel*/
 
-class VerticalMouseDrivenCarousel {
+
+class  VerticalMouseDrivenCarousel {
 	constructor(options = {}) {
 		const _defaults = {
 			carousel: ".js-carousel",
@@ -162,4 +164,4 @@ class VerticalMouseDrivenCarousel {
 }
 
 new VerticalMouseDrivenCarousel();
-
+})(jQuery);
