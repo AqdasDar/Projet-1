@@ -138,7 +138,7 @@ class  VerticalMouseDrivenCarousel {
 		let belowCurrent = parseInt(id);
 
 		if (aboveCurrent > 0) {
-			for (let i = 1; i <= aboveCurrent; i++) {
+			for (let i = 0; i <= aboveCurrent; i++) {
 				let opacity = 0.5 / i;
 				let offset = 5 * i;
 				TweenMax.to(this.getListItems()[id + i], 0.5, {
@@ -150,7 +150,7 @@ class  VerticalMouseDrivenCarousel {
 		}
 
 		if (belowCurrent > 0) {
-			for (let i = 0; i <= belowCurrent; i++) {
+			for (let i = 1; i <= belowCurrent; i++) {
 				let opacity = 0.5 / i;
 				let offset = 5 * i;
 				TweenMax.to(this.getListItems()[id - i], 0.5, {
@@ -164,4 +164,35 @@ class  VerticalMouseDrivenCarousel {
 }
 
 new VerticalMouseDrivenCarousel();
+//section 5 caroussel slider 3D
+var
+	carousel = document.querySelector('.carousel'),
+	figure = carousel.querySelector('figure'),
+	nav = carousel.querySelector('nav'),
+	numImages = figure.childElementCount,
+	theta =  2 * Math.PI / numImages,
+	currImage = 0
+;
+	
+nav.addEventListener('click', onClick, true);
+
+function onClick(e) {
+	e.stopPropagation();
+	
+	var t = e.target;
+	if (t.tagName.toUpperCase() != 'BUTTON')
+		return;
+	
+	if (t.classList.contains('next')) {
+		currImage++;
+	}
+	else {
+		currImage--;
+	}
+	
+	figure.style.transform = `rotateY(${currImage * -theta}rad)`;
+}
+
+
+
 })(jQuery);
